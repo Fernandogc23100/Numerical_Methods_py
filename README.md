@@ -20,35 +20,42 @@ Todo el sistema es modular, interactivo y permite el ingreso dinámico de datos.
 ---
 
 ## 📂 Estructura del proyecto
+```bash
 proyecto_examen_cda135/
 │
-├── main.py # Menú principal
-├── horner.py # Método de Horner
-├── muller.py # Método de Muller
-├── interpolacion_lineal.py
-├── lagrange.py # Interpolación de Lagrange
-├── minimos_cuadrados.py # Regresión lineal
-├── utils.py # Funciones auxiliares
-└── bibliografia.txt # Referencias consultadas
+├── main.py               # Menú principal
+├── horner.py             # Método de Horner
+├── muller.py             # Método de Muller
+├── interpolacion_lineal.py  # Interpolación de Lineal
+├── lagrange.py           # Interpolación de Lagrange
+├── minimos_cuadrados.py  # Regresión lineal
+├── utils.py              # Funciones auxiliares
+└── bibliografia.txt      # Referencias consultadas
 
 ---
 
 ## ⚙️ Requisitos
-
+  
 El proyecto utiliza:
 
 - ✅ Python 3.x
 - ✅ Librería `sympy` (para manejo simbólico de polinomios)
+- ✅ (No requiere numpy ni otras librerías externas)
 
 Puedes instalar las dependencias ejecutando:
 
 ```bash
 pip install sympy
 
-(No requiere numpy ni otras librerías externas)
+```
+
+
 
 📌 Ejecución
 
 Desde la carpeta raíz del proyecto:
+```bash
 python main.py
+
+```
 El menú interactivo te guiará para ejecutar cada método.

@@ -1,0 +1,2 @@
+- sympy: https://www.sympy.org/
+- Documentación oficial de sympy: https://docs.sympy.org/latest/index.html

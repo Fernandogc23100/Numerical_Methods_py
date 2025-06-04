@@ -31,8 +31,7 @@ proyecto_examen_cda135/
 ├── minimos_cuadrados.py  # Regresión lineal
 ├── utils.py              # Funciones auxiliares
 └── bibliografia.txt      # Referencias consultadas
-
----
+```
 
 ## ⚙️ Requisitos
   
